@@ -599,11 +599,58 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
+
+    .countdown-container {
+  text-align: center;
+  padding: 50px 25px;
+  font-weight: bold;
+  background-color: #3b023b;
+  color: #ffffff !important;
+  margin: 0px;
+  font-family: sans-serif ;
+}
+
+.countdown-container #demo {
+  font-weight: bold;
+  font-size: 70px;
+  display: inline-block; /* Display the element inline */
+}
+
+.countdown-container #abbreviations {
+  font-size: 30px;
+  display: inline-block; /* Display the element inline */
+}
+/* @media(max-width:480px){
+  .countdown-container {
+    max-width: 340px;
+  }
+  .countdown-container #abbreviations {
+    font-size: 20px;
+    display: inline-block; 
+  }
+} */
+
+/* @media (min-width: 480px) {
+  .countdown-container {
+    max-width: 540px;
+  }
+} */
+
+@media(min-width: 320px ){
+  .container-fluid .py-9{
+height: 30px !important;
+  }
+  .countdown-container #demo{
+    font-size: 20px;
+    display: inline;
+  }
+}
+
 
 @media (min-width: 576px) {
   .container, .container-sm {
@@ -866,6 +913,9 @@ pre code {
 }
 
 @media (min-width: 576px) {
+  /* .countdown-container #demo{
+    font-size: 25px;
+  } */
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1032,6 +1082,9 @@ pre code {
 }
 
 @media (min-width: 768px) {
+  .countdown-container #demo{
+    font-size: 35px;
+  }
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -1198,6 +1251,9 @@ pre code {
 }
 
 @media (min-width: 992px) {
+  /* .countdown-container #demo{
+    font-size: 30px;
+  } */
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -4011,7 +4067,7 @@ input[type="button"].btn-block {
 
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -7451,10 +7507,10 @@ button.bg-dark:focus {
   margin-right: 3rem !important;
 }
 
-.mb-5,
+/* .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
-}
+} */
 
 .ml-5,
 .mx-5 {
@@ -7585,20 +7641,20 @@ button.bg-dark:focus {
   padding: 3rem !important;
 }
 
-.pt-5,
+/* .pt-5,
 .py-5 {
   padding-top: 3rem !important;
-}
+} */
 
 .pr-5,
 .px-5 {
   padding-right: 3rem !important;
 }
 
-.pb-5,
+/* .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
-}
+}  */
 
 .pl-5,
 .px-5 {

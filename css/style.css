@@ -5,6 +5,14 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+
+
+
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7486,8 +7494,23 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
-  margin-top: 4rem !important;
+  /* margin-top: 5rem !important; */
 }
+
+/* @media(min-width: 320px)
+{.mb-4{
+  margin-top : 9rem !important;
+margin-bottom: 9rem !important;
+} 
+}
+
+@media (min-width: 576px) {
+.mb-4{
+  margin-top: 2rem !important;
+  margin-bottom : 2rem !important;
+}
+} */
+
 
 .ml-4,
 .mx-4 {
